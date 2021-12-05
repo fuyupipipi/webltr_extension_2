@@ -9,7 +9,7 @@ chrome.tabs.query({ active: true, currentWindow: true }, (tab_data) => {
   function webappLink(url) {
     var title = document.getElementById('title-field').value,
     url = document.getElementById('url-field').value,
-    webapp_url = "https://webltr-webapp.herokuapp.com/webeval/post",
+    webapp_url = "https://webltr-webapp-2.herokuapp.com/webeval/post",
     target_url = webapp_url + "?url=" + url + "&title=" + title,
     width = screen.width / 2,
     height = screen.height,

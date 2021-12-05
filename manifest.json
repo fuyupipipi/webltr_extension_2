@@ -1,7 +1,7 @@
 {
     "name": "ウェブサイト評価システムサポートツール",
     "description": "ウェブサイト評価システムでの評価フォーム入力をサポートします",
-    "version": "1.0",
+    "version": "2.0",
     "manifest_version": 3,
     "action": {
         "default_popup": "popup.html",
